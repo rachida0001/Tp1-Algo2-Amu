@@ -66,7 +66,7 @@ class Polynome(Vecteur):
         
 if __name__ == "__main__":
     
-    v1 = Vecteur([1,7])
+    v1 = Vecteur([10, 20])
     v2 = Vecteur((5, -2, 1.5))
     v3 = Vecteur(range(4,8))
     
@@ -79,9 +79,9 @@ if __name__ == "__main__":
     p2 = Polynome([1,1,1])
     
     v4 = Vecteur([1,1,1])
+
     v5 = v2.somme(v4)
     print(type(v5))
     
     p3 = p1.somme_2(p2)
-    p3.afficher()
     print(type(p3))
