@@ -42,8 +42,6 @@ class Vecteur:
                 raise ValueError("Les vecteurs doivent avoir la meme dimension")
             s = [self.get(i) + vec2.get(i) for i in range(self.dimension())]
             return Vecteur(s)
-
-            s = [self.get(i) + vec2.get(i) for i in range(max(self.dimension(), vec2.dimension()))]
     
 
 class Polynome(Vecteur):
